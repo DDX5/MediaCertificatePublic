@@ -31,14 +31,13 @@ namespace MediaCertificateUtility.Utility
 
         public static void WriteMCF(MediaCertificate Certificate,string Location)
         {
-            JObject Document = JObject.FromObject(new{Metadata = new{Name = Certificate.Name,ID = Certificate.ID,Expiry = Certificate.Expiry},SecureDetails = new{SecureKey = Convert.ToBase64String(Certificate.GetKey("Media.Certificate.Utility.Access")),SecureIV = Convert.ToBase64String(Certificate.GetIV("Media.Certificate.Utility.Access"))}});
-            File.WriteAllText(Location, Document.ToString());
+            //Create Your Own
+            
         }
 
         public static MediaCertificate ReadCertificate(string Location)
         {
-            JObject JSON = JObject.Parse(File.ReadAllText(Location));
-            return new MediaCertificate(JSON);
+            //Create Your Own
         }
     }
 }

@@ -6,12 +6,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("MediaCertificate")]
-[assembly: AssemblyDescription("The new Media Certificate Utility Application For Windows")]
+[assembly: AssemblyTitle("TITLE")]
+[assembly: AssemblyDescription("DESCRIPTION")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Multicoder")]
-[assembly: AssemblyProduct("MediaCertificate")]
-[assembly: AssemblyCopyright("Copyright © Multicoder 2022")]
+[assembly: AssemblyCompany("COMPANY")]
+[assembly: AssemblyProduct("PRODUCT")]
+[assembly: AssemblyCopyright("Copyright © COPYRIGHT")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -21,7 +21,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("f39c8b74-0d30-458f-87a8-2d28347f0e13")]
+[assembly: Guid("GUID")]
 
 // Version information for an assembly consists of the following four values:
 //
