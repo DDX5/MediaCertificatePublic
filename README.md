@@ -9,5 +9,4 @@ The Revamped Media Certificate Utility Application
 - Custom Secure Password Validator
 ---
 # Progress
-Currently Added Creation UI and Certificate Backend.
-Load File And File Encryption Is Next
+Version 1.0.1 Uploaded
